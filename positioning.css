@@ -1,0 +1,48 @@
+html {
+    font-size: 18px;
+}
+
+.container{
+    font-size: 1.5em;
+    margin: 20px;
+    border: 1px solid blue;
+    display: flex;
+    
+   
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid gray;
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.manual {
+    width: 108px;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid rgb(61, 10, 10);
+    box-sizing: border-box;
+}
+
+.col {
+    border: 1px dotted red;
+}
+
+.right {
+      
+    flex: 1; 
+}
+
+.left {
+    
+    flex: 1; 
+}
